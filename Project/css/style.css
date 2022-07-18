@@ -162,8 +162,9 @@ div {
   max-width: 50%;
 }
 .col-sm-6:hover {
-  border-style: ridge;
-  transition: 0.8s;
+  border-style: solid;
+  border-width: 1px;
+  transition-delay: 0.3s;
 }
 *, *::before, *::after {
   box-sizing: border-box;
