@@ -151,41 +151,23 @@ nav a:hover::before {
    margin: 0;
    line-height: 1.5;
    background-color: #fff;
-   float: left;
+   cursor: pointer;
 }
 div {
   display: block;
-}
-.project_tile {
-  position: relative;
-  padding-right: 5px;
-  padding-left: 5px;
-  user-select: none;
-}
-.product_list-grid {
-  margin-left: -5px;
 }
 .col-sm-6 {
   flex: 0 0 50%;
   max-width: 50%;
 }
+.col-sm-6:hover {
+  border-style: solid;
+}
 *, *::before, *::after {
   box-sizing: border-box;
 }
-.product_list
-.project_tile {
-  padding: 0;
-}
-.product_list-grid--three_col
-.project_tile {
-  border-left: 5px solid
-  transparent;
-}
-
-.w-100 {
-  width: 100%!important;
-}
-.d-none {
-  display: none!important;
+figcaption {
+  padding: 45px;
+  padding-top: 0;
 }
 
