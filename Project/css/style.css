@@ -36,6 +36,7 @@ img {
   padding-bottom: 5em;
   vertical-align: middle;
   border-style: none;
+  padding: 5px;
 }
 .section{
   left: 0;
@@ -150,6 +151,7 @@ nav a:hover::before {
    margin: 0;
    line-height: 1.5;
    background-color: #fff;
+   float: left;
 }
 div {
   display: block;
