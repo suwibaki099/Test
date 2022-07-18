@@ -163,7 +163,7 @@ div {
 }
 .col-sm-6:hover {
   border-style: ridge;
-  transition: transform 0.7s;
+  transition: 0.8s;
 }
 *, *::before, *::after {
   box-sizing: border-box;
