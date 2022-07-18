@@ -33,6 +33,7 @@ img {
   width: 100%;
   height: 100%;
   padding-top: 2em;
+  padding-left: 2em;
   padding-bottom: 5em;
   vertical-align: middle;
   border-style: none;
@@ -161,7 +162,8 @@ div {
   max-width: 50%;
 }
 .col-sm-6:hover {
-  border-style: solid;
+  border-style: ridge;
+  transition: transform 0.7s;
 }
 *, *::before, *::after {
   box-sizing: border-box;
