@@ -1,0 +1,73 @@
+/*
+Project Name: Column Layout
+Author: Jandy Erick C. Gulpe https://www.facebook.com/bhoxjandy
+Developed @ One Month in PH
+*/
+
+
+
+/*----------------------------------------------------------------------------- 
+=01 BASE STYLES 
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+
+.alignleft {
+     float: left;
+     margin: 0 15px 15px 0;
+}
+
+.alignright {
+     float: right;
+     margin: 0 0 15px 15px;
+}
+
+/*inline and block
+     display: inline; = inline elements allow text, or other HTML elements to pile up on either side // can not maintain width. hinanug lang yung text
+     display: block; = elements won’t allow any other HTML elements to appear either to the left or right // can maintain width
+     display: inline-block; = can maintain width. inline-block: the box acts like a block element. yeat it flows on the page inline.
+*/
+
+
+
+/*----------------------------------------------------------------------------- 
+=02 LAYOUT 
+-----------------------------------------------------------------------------*/
+
+#container {
+     width: 1000px;
+     margin: 0 auto 0 auto;
+}
+
+#header {
+     background: silver;
+     padding: 50px;
+}
+
+#main {
+     background: skyblue;
+     padding: 50px;
+     width: 700px;
+     float: left;
+}
+#sidebar {
+     background: pink;
+     width: 300px;
+     float: left;
+     padding: 50px;
+}
+
+#footer {
+     background: peachpuff;
+     padding: 50px;
+}
