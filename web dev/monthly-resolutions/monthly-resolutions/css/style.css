@@ -1,0 +1,120 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Jandy Erick Gulpe | https://www.facebook.com/bhoxjandy
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear { /*it clear float between elements*/ 
+	clear: both;
+}
+
+body {
+     background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+    }  
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+    /* background: rgb(236, 241, 236);/*to easily scale the container or div. might delete later*/ 
+     width: 1200px;
+     margin: 0 auto 0 auto;
+}
+#header {
+     padding: 30px 50px 20px 0;
+}
+#main {
+     background-color: aliceblue;
+     width: 795px;
+     padding-left: 20px;
+     float: left;
+     padding-right: 5px;
+     margin-right: 10px;
+}
+#sidebar {
+     background-color: aliceblue;
+     width: 395px;
+     padding: 40px 40px 90px 40px;
+     float: left;
+     border-left: groove;
+     border-bottom: groove;
+}
+#footer {
+     padding: 10px 50px 10px 0;
+}
+/*----------------------------------------------------------------------------- 
+05=HEADER  
+-----------------------------------------------------------------------------*/
+h1 {
+     font-size: 50px;
+     margin-bottom: 0;
+}
+h2 {
+     font-size:  15px;
+     margin-top: -19px;
+}
+
+/*----------------------------------------------------------------------------- 
+04=MAIN  
+-----------------------------------------------------------------------------*/
+h3 {
+    font-size: 30px; 
+    letter-spacing: 3px;
+}
+p {
+     margin: 0;
+     width: 690px;
+}
+.grey {
+     color: #888888;
+}
+img {
+     width: 750px;
+     padding-bottom: 20px;
+}
+
+/*----------------------------------------------------------------------------- 
+05=SIDEBAR  
+-----------------------------------------------------------------------------*/
+.blogPicture {
+     width: auto;
+     border-radius: 80px;
+}
+h4 {
+     letter-spacing: 3px;
+}
+ul {
+     margin-top: -10px;
+}
+a {
+     text-decoration: none;
+     color: rgb(245, 147, 0);
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+.quoteDesign {
+     border-left: groove 5px;
+     margin: 0;
+     padding-left: 10px;
+}
+.quoteDesign p {
+     width: auto;
+     padding-left: 10px;
+}
