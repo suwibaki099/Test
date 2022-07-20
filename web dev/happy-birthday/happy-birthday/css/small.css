@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero img {
+    border-radius: 0;
+}
+
+aside.right , aside.left {
+    text-align: center;
+    float: inherit;
+}
+
+section {
+    text-align: center;
+}
+
+.contact {
+    background: #f5ebeb;
+}
+.contact p {
+    margin-bottom: 0;
+}
+.map iframe {
+  width: 100%;
+}
+
+
+
+
+/*
+notes!
+
+Welcome to the wonderful world of media queries! In this lesson, we use conditional CSS rules to keep your images beautiful at every size. We also cover the principle of specificity. Specificity is what your browser uses to decide the value (or importance) of conflicting CSS property values. Let’s learn more!
+
+Specificity - Here, it means that the choices you specify farther down your style sheet override the choices above them. If you make the background grey, and then later on in the cascade make your background blue, the background will look blue. It defers to the most recent code in your CSS. 
+
+But the neat thing about media queries is that they allow you to switch between different style sheets so that one only overrides the other when certain conditions are met. Here's how it should look: 
+
+<head>
+    <title>Happy Birthday Alexis!</title>
+    <meta name="description" content="Happy Birthday Alexis!">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css" media="(max-width: 630px)">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700|Lobster' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+Here, we're dealing with a size condition. When the image is larger than 630 pixels, the second sheet doesn't load at all. When the image is smaller than 630 pixels, the second CSS sheet knows to get off the couch and actually do something.
+
+Remember: there's no one right answer. If it makes more sense to you to define a media query by the minimum width, go for it! 
+
+It's important to input your style sheets in the correct order: style.css and then small.css. Because small.css doesn't outright replace the first CSS sheet. It simply overrides duplicate conditions. This allows you to code for different size screens. 
+
+Tip: Keep toggling back and forth between large and small views of your invitation as you play around. Make sure the features that look good in one view but not the other only appear at the right time, in the right size.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pixels vs. Ems vs. Rems what’s the difference? In this lesson, we take a moment to go over the differences between Pixels, Ems, and Rems, and talk about which unit is the most useful for creating responsive code.
+
+Pixel - An absolute unit of measurement - the smallest area of illumination on a display screen (although the physical size of a pixel varies depending on the size of the display screen). They have support from every browser. 
+
+Em - A multiple of the font-size of their parent element. That means that each em will adjust the size of you're font by a factor of ten, based on the size of the element it's inside.  
+
+Rem - A multiple of the root element. That means that each rem multiples its value by the default built into either you're code or your browser. Because different browsers and devices have different defaults, a REM allows your content to automatically adjust and keep its shape. 
+
+Why Choose One Over The Other: 
+When we say that pixels are an absolute unit of measurement, that doesn't mean that 1px is always the same size in each environment. Think about what happens when you hook your computer up to a projector. You have the same number of pixels on each display, but a pixel on the projector takes up more physical size than that on your laptop. What we mean instead is that a pixel does not change size based on any other measurements on the page.
+
+This is not the case for ems and rems, which are relative units. Hold on. We'll explain what that means. 
+
+Now, about ems. Let's say you have a div with a stated font-size of 10px and let's say that inside that div you have a paragraph. If you set that paragraph's font-size to 2rem, it multiplies by the parent font-size of 10px, giving the paragraph an equivalent size of 20px. Set the paragraph font-size to 1.6em and the equivalent size of 16px, and so on.
+
+The rem unit of measurement stands for "root em." While an em is a multiple of the font-size of the parent, a rem is a multiple of the root element, which is the html element that wraps all of our html.
+
+Rems are the newest of the three, so some older browsers don't support rems. This means if you have to support super old browsers like IE7 or IE8, you have to choose whether to use rems and provide pixel values as a fallback or to go without rems altogether. We think the first option is the way to go, but it does add some extra work for you.
+*/
+
+

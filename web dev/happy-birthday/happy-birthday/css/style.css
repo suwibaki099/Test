@@ -1,0 +1,112 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/space-background.png');
+  font-family: 'Open Sans', arial, sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+  border-radius: 20px;
+}
+
+/*
+ * Hero Styles
+*/
+.hero {
+  line-height: 0;
+}
+.hero img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/*
+ * Aside Styles
+*/
+aside.left {
+  float: left;
+  padding: 20px;
+}
+aside.right {
+  float: right;
+}
+/*
+ * section Styles
+*/
+section.intro, section.contact {
+  padding: 40px;
+}
+section.contact {
+  background: #f5ebeb;
+}
+section.intro {
+  padding-right: 20px;
+}
+/*
+ * MAP Styles
+*/
+
+
+
