@@ -1,3 +1,9 @@
+/* NTH-CHILD() link
+ *https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
+*/
+
+
+
 /*
  * General Styles
 */
@@ -99,14 +105,19 @@ section.intro, section.contact {
   padding: 40px;
 }
 section.contact {
-  background: #f5ebeb;
+  overflow: hidden;
+  background: #E0E3E5;
 }
 section.intro {
   padding-right: 20px;
 }
 /*
- * MAP Styles
+ * NTH-CHILD StyleS
 */
+section:nth-child(2n+1) {
+  border-radius: 20px 20px 0 0;
+  background: #E0E3E5;
+}
 
 
 
