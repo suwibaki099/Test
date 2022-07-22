@@ -53,6 +53,7 @@
                       <div><img src="images/women.jpg" class="img-thumbnail grayscale">
                       </div>
                       <div class="product-price">
+                      <form action="product.php" method="POST">
                       <h2>New Sandals</h2><!--name of product-->
                       <h3>$89.60</h3>
 
@@ -63,7 +64,7 @@
                       <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                       <input type="text" name="Color" class="color" placeholder="Color" required><br>
                       
-                      <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                      <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                     </div><!--#product-price-->
                     </div>
                   </div><!--close of modal-->
@@ -83,6 +84,7 @@
                             <div><img src="images/women2.jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Leather Sandal</h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -93,7 +95,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -113,6 +115,7 @@
                             <div><img src="images/women3.jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Flats </h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -123,7 +126,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -143,6 +146,7 @@
                             <div><img src="images/women(4).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Slippers</h2><!--name of product-->
                             <h3>$60.89</h3>
 
@@ -153,7 +157,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -173,6 +177,7 @@
                             <div><img src="images/women(5).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Leather Flats</h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -183,7 +188,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -203,6 +208,7 @@
                             <div><img src="images/women(6).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Sandal</h2><!--name of product-->
                             <h3>$79.80</h3>
 
@@ -213,7 +219,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -233,6 +239,7 @@
                             <div><img src="images/women(7).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Leather Heels</h2><!--name of product-->
                             <h3>$90.70</h3>
 
@@ -243,7 +250,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -263,6 +270,7 @@
                             <div><img src="images/women(8).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Leather Heels with Strap</h2><!--name of product-->
                             <h3>$90.70</h3>
 
@@ -273,7 +281,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -293,6 +301,7 @@
                             <div><img src="images/women(10).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Slippers</h2><!--name of product-->
                             <h3>$70.90</h3>
 
@@ -303,7 +312,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -323,6 +332,7 @@
                             <div><img src="images/women(11).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Heels</h2><!--name of product-->
                             <h3>$89.70</h3>
 
@@ -333,7 +343,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -353,6 +363,7 @@
                             <div><img src="images/women(12).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>House Slipper</h2><!--name of product-->
                             <h3>$60.90</h3>
 
@@ -363,7 +374,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -383,6 +394,7 @@
                             <div><img src="images/women(13).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Shoes</h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -393,7 +405,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -413,6 +425,7 @@
                             <div><img src="images/women(14).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>Heels</h2><!--name of product-->
                             <h3>$89.70</h3>
 
@@ -423,7 +436,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
@@ -443,6 +456,7 @@
                             <div><img src="images/women(15).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
+                            <form action="product.php" method="POST">
                             <h2>High Heels</h2><!--name of product-->
                             <h3>$97.70</h3>
 
@@ -453,7 +467,7 @@
                             <input type="text" name="Quantity" class="quantity" placeholder="Quantity" required><br>
                             <input type="text" name="Color" class="color" placeholder="Color" required><br>
                             
-                            <button class="button" style="vertical-align:middle"><span>Submit</span></button><!--button-->
+                            <button class="button" style="vertical-align:middle"><span>Submit</span></button></form><!--button-->
                           </div><!--#product-price-->
                           </div>
                         </div><!--close of modal-->
