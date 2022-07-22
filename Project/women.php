@@ -25,9 +25,9 @@
         <ul>
          <li><a href="index.html">Home</a></li>
           <li><a href="sale.php">Sale</a></li>
-          <li><a href="men.html">Men</a></li>
-          <li><a href="women.html">Women</a></li>
-          <li><a href="kids.html">Kids</a></li>
+          <li><a href="men.php">Men</a></li>
+          <li><a href="women.php">Women</a></li>
+          <li><a href="kids.php">Kids</a></li>
         </ul>
       </nav>
     </div>
@@ -53,7 +53,7 @@
                       <div><img src="images/women.jpg" class="img-thumbnail grayscale">
                       </div>
                       <div class="product-price">
-                      <form action="product.php" method="POST">
+                      <form name="product.php" method="POST" data-netlify="true">
                       <h2>New Sandals</h2><!--name of product-->
                       <h3>$89.60</h3>
 
@@ -84,7 +84,7 @@
                             <div><img src="images/women2.jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Leather Sandal</h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -115,7 +115,7 @@
                             <div><img src="images/women3.jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Flats </h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -146,7 +146,7 @@
                             <div><img src="images/women(4).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Slippers</h2><!--name of product-->
                             <h3>$60.89</h3>
 
@@ -177,7 +177,7 @@
                             <div><img src="images/women(5).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Leather Flats</h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -208,7 +208,7 @@
                             <div><img src="images/women(6).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Sandal</h2><!--name of product-->
                             <h3>$79.80</h3>
 
@@ -239,7 +239,7 @@
                             <div><img src="images/women(7).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Leather Heels</h2><!--name of product-->
                             <h3>$90.70</h3>
 
@@ -270,7 +270,7 @@
                             <div><img src="images/women(8).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Leather Heels with Strap</h2><!--name of product-->
                             <h3>$90.70</h3>
 
@@ -301,7 +301,7 @@
                             <div><img src="images/women(10).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Slippers</h2><!--name of product-->
                             <h3>$70.90</h3>
 
@@ -332,7 +332,7 @@
                             <div><img src="images/women(11).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Heels</h2><!--name of product-->
                             <h3>$89.70</h3>
 
@@ -363,7 +363,7 @@
                             <div><img src="images/women(12).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>House Slipper</h2><!--name of product-->
                             <h3>$60.90</h3>
 
@@ -394,7 +394,7 @@
                             <div><img src="images/women(13).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>Shoes</h2><!--name of product-->
                             <h3>$89.60</h3>
 
@@ -425,7 +425,7 @@
                             <div><img src="images/women(14).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <<form name="product.php" method="POST" data-netlify="true">
                             <h2>Heels</h2><!--name of product-->
                             <h3>$89.70</h3>
 
@@ -456,7 +456,7 @@
                             <div><img src="images/women(15).jpg" class="img-thumbnail grayscale">
                             </div>
                             <div class="product-price">
-                            <form action="product.php" method="POST">
+                            <form name="product.php" method="POST" data-netlify="true">
                             <h2>High Heels</h2><!--name of product-->
                             <h3>$97.70</h3>
 
