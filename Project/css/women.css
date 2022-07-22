@@ -2,3 +2,7 @@
     padding-top: 5em;
     padding-bottom: 5em;
 }
+h3, h2{
+    color: rgb(19, 58, 92);
+    background-color: antiquewhite;
+}
