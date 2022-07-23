@@ -127,3 +127,59 @@ header .logo {
 .info h2.price time {
   font-size: 16px;
 }
+
+
+@media only screen and (min-width: 1060px) {
+
+
+  .container {
+  width: 1040px;
+  margin: 0 auto;
+  }
+ 
+  .column {
+  float: left;
+  }
+ 
+  .button {
+  width: 275px;
+  margin: auto;
+  }
+ 
+  .info h1 {
+  margin-bottom: 11px;
+  }
+ 
+  .info h2 {
+  margin-bottom: 3px;
+  }
+ 
+  .info .profile {
+  width: 660px;
+  border-right: 1px solid #DCE0E0;
+  }
+ 
+  .info .booking {
+  width: 380px;
+  }
+ 
+  .info .owner-details {
+  width: 20%;
+  }
+ 
+  .info .pet-details {
+  width: 80%;
+  text-align: left;
+  }
+ 
+  .info .pet-details .icon {
+  width: inherit;
+  margin-right: 50px;
+  }
+ 
+  .info .pet-details .icon img {
+  display: block;
+  margin: 3px auto 3px;
+  }
+ 
+ }
