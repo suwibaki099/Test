@@ -1,0 +1,23 @@
+/*------RESET DEFAULT HTML-------*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*------FLEX-------*/
+
+.flex-container {
+  width: 70%;
+  margin: 150px auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  line-height: 175px;
+  background-color: #f1f1f1;
+  margin: 20px;
+  text-align: center;
+  width: 100px;
+}

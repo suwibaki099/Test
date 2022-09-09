@@ -1,0 +1,50 @@
+.container {
+  margin: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+}
+
+.container div {
+  width: 100px;
+  line-height: 80px;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin: 10px;
+}
+
+.order1 {
+  /* TODO: The ALIGN-SELF property specifies the alignment for the selected item inside the flexible container. The ALIGN-SELF property overrides the default alignment set by the container's align-items property. */
+
+  align-self: flex-end;
+  order: 1;
+}
+
+.order2 {
+  /* flex-grow: 2; same as flex-basis */
+
+  order: 2;
+  flex-basis: 150px;
+}
+
+.order3 {
+  order: 3;
+}
+
+.order4 {
+  order: 4;
+}
+
+.order5 {
+  /* flex-grow: 2; */
+  /* flex-basis: 150px; */
+  /* flex-shrink: 0; */
+  /* Combination or shorthand for flexgrow and flexshrink and flexbasis */
+
+  flex: 0 0 200px;
+  order: 5;
+}
