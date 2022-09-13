@@ -49,6 +49,7 @@ ul li:last-child {
   margin-right: 60px;
 }
 
+/* Styling the links in the nav bar. */
 ul li a {
   text-decoration: none;
   color: #fff;
@@ -90,3 +91,54 @@ ul li a {
   height: 10vh;
   background: yellowgreen;
 }
+
+/* Styling the dropdown menu. */
+.dropbox {
+  display: none;
+  position: absolute;
+  background: #fff;
+}
+
+.dropbox a {
+  width: 100px;
+  background: palegreen;
+  color: black;
+  margin: 2px;
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+
+.about {
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropbox a:hover {
+  background: hotpink;
+  color: #fff;
+}
+
+li:hover .dropbox {
+  display: block;
+}
+
+/* details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+details summary {
+  list-style: none;
+}
+
+details p {
+  position: absolute;
+}
+
+details p:last-child {
+  position: absolute;
+  top: 90px;
+} */

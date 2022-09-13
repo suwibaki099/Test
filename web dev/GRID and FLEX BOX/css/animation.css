@@ -1,0 +1,53 @@
+.container {
+  width: 600px;
+  height: 600px;
+  background: limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  display: none;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  text-align: center;
+  font-size: 50px;
+  animation: looping 2s ease-in-out infinite;
+}
+
+.container:hover .child {
+  transition: transform 0.4s;
+  display: block;
+}
+
+@keyframes looping {
+  0% {
+    transform: scale(0);
+    transform: rotate(0deg);
+  }
+
+  33% {
+    transform: scale(20%);
+    transform: rotate() 45deg;
+    background: aqua;
+  }
+
+  55% {
+    transform: scale(40%);
+    transform: rotate(135deg);
+  }
+
+  70% {
+    transform: rotate(265deg);
+  }
+
+  80% {
+    transform: rotate(350deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
